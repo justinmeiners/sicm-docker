@@ -1,3 +1,3 @@
  docker run \
-     -v ${PWD}/scripts:/scripts \
+     -v ${PWD}/scheme:/scheme \
      scm --quiet --load /$1
